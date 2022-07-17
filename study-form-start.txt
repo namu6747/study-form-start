@@ -35,3 +35,6 @@ checked="checked"
 
 참고: @ModelAttribute 가 있는 deliveryCodes() 메서드는 컨트롤러가 호출 될 때 마다 사용되므로
 deliveryCodes 객체도 계속 생성된다. 이런 부분은 미리 생성해두고 재사용하는 것이 더 효율적이다
+
+Wrapper 클래스는 default 값과 존재할 수 있는 값을 헷갈리지 않도록 구분
+null 값을 가질 수 있기 때문.
